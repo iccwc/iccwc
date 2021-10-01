@@ -1,0 +1,147 @@
+.card-title-update{
+    font-size: 2vh;
+    font-weight: bold !important;
+}
+
+.caddfilter{
+   background-image:linear-gradient(160deg, rgb(0, 147, 233,0.5) 0%, rgb(128, 208, 199,0.6) 100%),url('../Images/comittee.jpg');
+   /* background-color: black; */
+}
+.font-setting{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 7.5vh;
+ }
+ thead{
+    background-color: rgb(6, 179, 179);
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.2rem;
+ }
+ tbody{
+    font-size: 1rem;
+ }
+
+.organizingHome{
+    height: 60vh;
+}
+
+.commfooter{
+    background-color: rgba(190,181,4,1) ;
+    margin-top: 10vh;
+
+}
+.ChiefPatron{
+    width: 100vw;
+}
+.heading-c{
+    font-size: 3vh;
+}
+.card-image img{
+    height: 35vh;
+}
+.cardOuter{
+    height: 50vh;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+.card{
+    height: 100%;
+}
+.committeeHeading{
+    font-size: 40px;
+}
+
+.avatarImage{
+    height: 40px;
+    width: 40px;
+}
+ 
+.commeventHeading{
+    font-size: 70px;
+    margin-top: 30vh;
+}
+
+.organizingCommittee{
+    width: 100vw;
+}
+
+.organizingSecretary{
+    width: 100vw;
+    padding-left: 15vw;
+    padding-right: 25vw;
+}
+.chairPerson{
+    display: flex;
+}
+.cardChair{
+    width: 20vw;
+    margin-left: 10vw;
+    height: 50vh !important;
+}
+@media only screen and (max-width: 900px) {
+    .commeventHeading{
+        font-size: 30px;
+    }
+    .cardChair{
+        width: 80vw;
+        margin-left: 10vw;
+    }
+    .cardOuter{
+        width: 80vw;
+    }
+    .committeeHeading{
+        font-size: 40px;
+    }
+    .ChiefPatron{
+        width: 100vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .font-setting{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 6vh;
+     }
+    .commeventHeading{
+        font-size: 30px;
+    }
+
+    .organizingSecretary{
+        padding-left: 10vw;
+    }
+
+    .chairPerson{
+        display: block;
+    }
+    .organizingCommittee{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .cardChair{
+        width: 80vw;
+        margin-left: 0;
+        margin-bottom: 5vh;
+    }
+    .committeeHeading{
+        font-size: 25px;
+    }
+    .cardOuter{
+        width: 80vw; 
+        margin-left: 0;
+    }
+    .ChiefPatron{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
