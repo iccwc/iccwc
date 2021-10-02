@@ -40,9 +40,9 @@ class InfoCarousel extends Component {
                             PUBLICATION
                         </h1>
                         <p className="infoData">
-                        Proceedings of ICCWC 2021 will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”
+                        Proceedings of ICCWC 2022 will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”
                             <br /><br />
-                            Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review.
+                            Selected papers from ICCWC-2022 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review.
                         </p>
                         <Table centered={true}
                          className="container container-2">
